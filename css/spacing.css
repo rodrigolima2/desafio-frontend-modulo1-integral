@@ -1,0 +1,44 @@
+.mt-5{
+    margin-top: 50px;
+}
+.mt-15{
+    margin-top: 150px;
+}
+
+.mr-1_5{
+    margin-right: 15px;
+}
+.mr-4{
+    margin-right: 40px;
+}
+.mr-50{
+    margin-right: 500px;
+}
+.mr-28{
+    margin-right: 280px;
+}
+
+.mb-3{
+    margin-bottom: 30px;
+}
+
+.pt-5{
+    padding-top: 50px;
+}
+
+.pr-5{
+    padding-right: 50px;
+}
+
+.pb-5{
+    padding-bottom: 50px;
+}
+
+.pl-2_5{
+    padding-left: 25px;
+}
+
+/*flex alinhamento de itens unicos*/
+.align-self--center{
+    align-self: center;
+}

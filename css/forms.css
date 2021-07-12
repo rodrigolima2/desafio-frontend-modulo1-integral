@@ -1,0 +1,37 @@
+/*Label*/
+.label{
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;  
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+/*textarea*/
+.textarea{
+    resize: none;
+    background: #EBEBEC;
+    mix-blend-mode: normal;
+
+    padding: 5px;
+    border: 2px solid #EBEBEC;
+}
+.textarea:focus{
+    border: 2px solid #000000;
+}
+
+/*input*/
+.input{
+    all: unset;
+    cursor: text;
+    background: #EBEBEC;
+    mix-blend-mode: normal;
+
+    padding: 10px 5px;
+}
+.input:focus{
+    border: 2px solid #000000;
+}

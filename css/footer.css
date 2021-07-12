@@ -1,0 +1,27 @@
+.contact-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 165px;
+    margin-bottom: 150px;
+}
+.contact-section h2{
+    width: 30%;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #33323D;
+
+    padding: 24px 165px;
+}
+.footer__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

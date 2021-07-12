@@ -1,0 +1,62 @@
+/*Botao primario*/
+.btn--sobre-mim{
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: #203A4C;
+
+    padding: 17px 48px;
+}
+.btn--sobre-mim:hover{
+    background: #5FB4A2;
+}
+
+/*Botoes secundarios*/
+.btn--contato{
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+
+    background: #FAFAFA;
+
+    padding: 17px 48px;
+    border: 1px solid #33323D;
+}
+.btn--contato:hover{
+    color: #FAFAFA;
+
+    background: #33323D;
+}
+.btn--enviar{
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background: #203A4C;
+    
+    padding: 17px 48px;
+}
+.btn--enviar:hover{
+    background: #5FB4A2;
+}
