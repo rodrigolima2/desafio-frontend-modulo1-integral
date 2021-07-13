@@ -15,6 +15,15 @@ body{
     padding-top: 64px;
 }
 
+/*Width*/
+.width--all-line{
+    width: 100%;
+}
+.width--half-line{
+    width: 50%;
+}
+
+/*Displays*/
 .display--flex{
     display: flex;
 }
