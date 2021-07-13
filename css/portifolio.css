@@ -1,0 +1,35 @@
+.portifolio-section{
+    display: flex;
+    width: 100%;
+}
+.portifolio-section__aside{
+    display: flex;
+    width: 50%;
+    max-height: 520px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 48px 0;
+}
+.portifolio-section__content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.portifolio-section__img{
+    width: 100%;
+    height: 400px;
+}
+
+.portifolio-bar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 32px 0;
+}
+.portifolio-bar__project{
+    display: flex;
+    flex-direction: column;
+}
