@@ -9,7 +9,7 @@
     background-color: #5FB4A2;
 }
 .btn--sobre-mim:hover .btn--sobre-mim__down-arrow{
-    background-image: url('/assets/icons/down-arrows-light.svg');
+    background-image: url('../assets/icons/down-arrows-light.svg');
     background-color: #55A292;
 }
 .btn--sobre-mim__down-arrow{
@@ -20,7 +20,7 @@
     height: 100%;
 
     background-color: #1D3444;
-    background-image: url('/assets/icons/down-arrows.svg');
+    background-image: url('../assets/icons/down-arrows.svg');
     background-repeat: no-repeat;
     background-position: center;
 
