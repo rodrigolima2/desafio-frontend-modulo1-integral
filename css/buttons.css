@@ -1,8 +1,37 @@
 /*Botao primario*/
 .btn--sobre-mim{
-    font-family: 'Public Sans', sans-serif;
-    text-decoration: none;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn--sobre-mim:hover .btn--sobre-mim__link{
+    background-color: #5FB4A2;
+}
+.btn--sobre-mim:hover .btn--sobre-mim__down-arrow{
+    background-image: url('/assets/icons/down-arrows-light.svg');
+    background-color: #55A292;
+}
+.btn--sobre-mim__down-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+
+    background-color: #1D3444;
+    background-image: url('/assets/icons/down-arrows.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 17px 0;
+}
+.btn--sobre-mim__link{
+    width: 100%;
+    justify-self: center;
+
     font-style: normal;
+    text-decoration: none;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
@@ -13,10 +42,7 @@
 
     background: #203A4C;
 
-    padding: 17px 48px;
-}
-.btn--sobre-mim:hover{
-    background: #5FB4A2;
+    padding: 17px 0;
 }
 
 /*Botoes secundarios*/

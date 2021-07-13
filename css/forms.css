@@ -9,6 +9,15 @@
     mix-blend-mode: normal;
     opacity: 0.8;
 }
+.label--btn{
+    background: #203A4C;
+
+    padding: 15px 0;
+}
+.label--btn img{
+    width: 100%;
+    height: 100%;
+}
 
 /*textarea*/
 .textarea{
