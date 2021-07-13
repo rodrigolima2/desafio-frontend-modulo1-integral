@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>titulo</title>
+    <title>Alex Spencer - Contato</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="../../css/spacing.css">
     <link rel="stylesheet" href="../../css/borders.css">
     <link rel="stylesheet" href="../../css/container.css">
+    <link rel="stylesheet" href="/css/portifolio.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,28 +29,53 @@
     <div class="header">
         <img src="../../assets/logo-dark.svg" alt="logo">
         <nav class="header__nav">
-            <a class="link mr-4" href="#">Home</a>
-            <a class="link mr-4" href="#">Portifolio</a>
-            <a class="link color--cyan" href="#">Contato</a>
+            <a class="link mr-4" href="../home/index.html">Home</a>
+            <a class="link mr-4" href="../portfolio/index.html">Portifolio</a>
+            <a class="link color--cyan" href="../contato/index.html">Contato</a>
         </nav>
     </div>
-    <div class="container">
-    </div>
-    <div class="contact-section mt-15">
-        <h2 class="title--h2">Interessado em fazer projetos comigo?</h2>
-        <a href="" class="btn--contato">contato</a>
+    <div class="container mt-9_5 mb-9">
+        <div class="section bt bb">
+            <h2 class="title--h2 width--half-line">Entre em Contato</h2>
+            <div class="section__content">
+                <p class="text mb-5">
+                    Eu adoraria escutar sobre seu trabalho atual e como eu poderia ajudar. Atualmente estou procurando
+                    por um cargo e aberto para várias oportunidades. Minha preferência é uma oportunidade em uma empresa
+                    Britânica. Mas também estou feliz em escutar sobre oportunidades remotas. Sou uma pessoa
+                    trabalhadora e positiva que sempre fará as tasks com um senso de propósito e atenção aos detalhes.
+                    Fique livre para checar meu perfis abaixo e entrar em contato utilizando o formulário.
+                </p>
+                <div class="display--flex">
+                    <a class="mr-1_5" href="#"><img src="/assets/icons/github-dark.svg" alt="github"></a>
+                    <a class="mr-1_5" href="#"><img src="/assets/icons/twitter-dark.svg" alt="twitter"></a>
+                    <a href="#"><img src="/assets/icons/linkedin-dark.svg" alt="linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="title--h2 width--half-line">Contato</h2>
+            <div class="section__content">
+                <label for="nome" class="mb-1">Nome</label>
+                <input id="nome" class="input mb-2_5" type="text">
+                <label for="email" class="mb-1">Email</label>
+                <input id="email" class="input mb-2_5" type="text">
+                <label for="mensagem" class="mb-1">Mensagem</label>
+                <textarea id="mensagem" class="textarea mb-2_5" rows="6"></textarea>
+                <a href="#" class="btn--enviar">Enviar</a>
+            </div>
+        </div>
     </div>
     <div class="footer">
         <nav class="footer__nav">
             <img class="mr-4" src="../../assets/logo-light.svg" alt="logo">
-            <a class="link mr-4 color--white" href="">Home</a>
-            <a class="link mr-4 color--white" href="">Portifolio</a>
-            <a class="link color--white" href="">Contato</a>
+            <a class="link mr-4 color--white" href="../home/index.html">Home</a>
+            <a class="link mr-4 color--white" href="../portfolio/index.html">Portifolio</a>
+            <a class="link color--white" href="../contato/index.html">Contato</a>
         </nav>
         <div class="footer__redes">
-            <a class="mr-1_5" href=""><img src="../../assets/icons/github-light.svg" alt="github icon"></a>
-            <a class="mr-1_5" href=""><img src="../../assets/icons/twitter-light.svg" alt="twitter icon"></a>
-            <a href=""><img src="../../assets/icons/linkedin-light.svg" alt="linkedin icon"></a>
+            <a class="mr-1_5" href="#"><img src="../../assets/icons/github-light.svg" alt="github icon"></a>
+            <a class="mr-1_5" href="#"><img src="../../assets/icons/twitter-light.svg" alt="twitter icon"></a>
+            <a href="#"><img src="../../assets/icons/linkedin-light.svg" alt="linkedin icon"></a>
         </div>
     </div>
 </body>
