@@ -14,3 +14,29 @@ body{
 
     padding-top: 64px;
 }
+
+.display--flex{
+    display: flex;
+}
+
+/*flex alinhamento de itens*/
+.align-items--flex-start{
+    align-items: flex-start;
+}
+.align-items--flex-end{
+    align-items: flex-end;
+}
+.align-items--center{
+    align-items: center;
+}
+
+/*flex alinhamento de itens unicos*/
+.align-self--center{
+    align-self: center;
+}
+.justify-self--flex-start{
+    justify-self: flex-start;
+}
+.justify-self--flex-end{
+    justify-self: flex-end;
+}

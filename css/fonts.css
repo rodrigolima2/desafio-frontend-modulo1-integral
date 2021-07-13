@@ -22,7 +22,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
-    line-height: 36px; 
+    line-height: 42px; 
     letter-spacing: -0.285714px;   
     color: #33323D;
 }
@@ -51,4 +51,14 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #33323D;    
+}
+
+/*Pesos de fontes*/
+.font-weight--bold{
+    font-weight: bold;
+}
+
+/*Opacidade*/
+.opacity--0_5{
+    opacity: 0.5;
 }
